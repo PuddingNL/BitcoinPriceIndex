@@ -1,0 +1,15 @@
+{
+  "name": "opendata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getcoin": "node -r esm index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "esm": "^3.2.18"
+  }
+}
