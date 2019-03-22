@@ -11,6 +11,6 @@ async function getCoinUpdate(url, val) {
     return TheData;
 }
 
-// setInterval(function() {
+setInterval(function() {
     getCoinUpdate(_btCoin, _rate);
-// }, 5000);
+}, 5000);
